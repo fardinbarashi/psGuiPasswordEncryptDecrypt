@@ -1,4 +1,4 @@
-# PasswordEncryptDecrypt
+# FilePasswordEncryptDecrypt
 
 **Note:** Encrypted passwords can only be decrypted by the same user and on the same system they were encrypted on.
 
@@ -42,23 +42,3 @@ Security Notes
 - Encryption is user- and machine-specific.
 
 ```
-
----
-
-### Overview
-**FilePasswordEncryptDecrypt 1.1** 
-```
-is a simple, GUI-based PowerShell tool that allows you to securely encrypt and decrypt passwords. 
-It uses the current user context, meaning only the user who encrypted the password can later decrypt it
-ensuring local security without the need for third-party tools. 
-Uses XAML
-
-System Requirements
-
-| Requirement              | Version                  |
-|--------------------------|--------------------------|
-| PowerShell Version       | 5.1 or later  |
-
-
-```
-
